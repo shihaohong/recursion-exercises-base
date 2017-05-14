@@ -30,7 +30,7 @@ const flattenTreeToArray = function(node) {
   visitAllNodes(node, node => {
     nodeArray.push(node);
   });
-  
+
   return nodeArray;
 };
 
